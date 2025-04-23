@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Compilados de TypeScript
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Cache y dependencias
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+.cache/
+.eslintcache
+
+# Configuraciones opcionales
+tsconfig.tsbuildinfo
