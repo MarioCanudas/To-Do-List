@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+<!-- Define the configuration of the page -->
+<head>
+    <meta charset = 'UTF-8'>
+    <title>To-do List</title>
+    <!-- Import a custom font -->
+    <link href="https://fonts.google.com/share?selection.family=Cascadia+Mono:ital,wght@0,200..700;1,200..700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Principal content of the html page -->
+<body>
+    <div class="header">
+        <h1>To-do List</h1>
+    </div>
+    
+    <div class="container">
+        <!-- Group input and button -->
+        <div class="input-group" style="margin-bottom: 20px;"> <!-- Added inline style for spacing -->
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <button id="add-task">Add Task</button>
+        </div>
+        <!-- Task list will appear below the input group -->
+        <div class="to-do-list-container">
+            <h3>To do</h3>
+            <ul id="to-do-list"></ul>
+        </div>
+
+        <div class="done-list-container" id="done-container">
+            <h3>Done</h3>
+            <ul id="done-list"></ul>
+        </div>
+
+    </div>
+
+    <!-- Run script to make a dinamic html -->
+    <script src="/dist/index.js"></script>
+</body>
+</html>

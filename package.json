@@ -1,24 +1,32 @@
 {
   "name": "to-do-list",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Una to-do list simple hecha con TypeScript puro",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarioCanudas/To-Do-List.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "to-do",
+    "web",
+    "frontend"
+  ],
+  "author": "Mario Canudas",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/MarioCanudas/To-Do-List/issues"
   },
   "homepage": "https://github.com/MarioCanudas/To-Do-List#readme",
   "devDependencies": {
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
